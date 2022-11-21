@@ -31,7 +31,7 @@ exclude = ["examples/basic", "examples/test_framework"]
 anyhow = "1.0.32"
 fatfs = "0.3.4"
 gpt = "3.0.0"
-mbrman = "0.4.2"
+mbrman = { git = "https://github.com/cecton/mbrman", branch = "update-to-bitvec-1.0.1" }
 tempfile = "3.3.0"
 
 [dev-dependencies]
